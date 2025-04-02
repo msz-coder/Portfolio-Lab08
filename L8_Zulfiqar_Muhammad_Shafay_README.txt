@@ -7,8 +7,8 @@ A fully responsive **personal portfolio website** to showcase **projects, skills
 - *Last Modification Date*: 05 Apr 2025
 - *Live URL*: [Shafay's Portfolio](https://main.d1vidfdr0slgdn.amplifyapp.com)  
 - *Original GitHub Repository*: [DeveloperFolio](https://github.com/saadpasta/developerFolio)  
-- *Current GitHub Repository*: [Shafay's Portfolio](https://github.com/msz-coder/Portfolio-Lab7)  
-- *GitLab Repository*: [React Portfolio](https://git.cs.dal.ca/zulfiqar/react-portfolio)
+- *Current GitHub Repository*: [Shafay's Portfolio](https://github.com/msz-coder/Portfolio-Lab08)  
+- *GitLab Repository*: [React Portfolio](https://git.cs.dal.ca/zulfiqar/react-portfolio-lab-08)
 
 ## Authors
 

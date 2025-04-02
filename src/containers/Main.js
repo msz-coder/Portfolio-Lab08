@@ -10,7 +10,6 @@ import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -71,7 +70,6 @@ const Main = () => {
             <Projects />
             <StartupProject />
             <Achievement />
-            {/* <Profile /> */}
             <Contact />
             <Footer />
             <ScrollToTopButton />
