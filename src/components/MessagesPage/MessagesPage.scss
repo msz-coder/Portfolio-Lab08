@@ -1,0 +1,67 @@
+@import "../../_globalColor";
+
+.messages-page {
+  background: $lightBackground1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &.dark-mode {
+    background: $darkBackground;
+    color: $textColorDark;
+  }
+
+  .messages-container {
+    padding: 2rem;
+    text-align: center;
+    flex: 1;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      color: white;
+    }
+
+    p {
+      color: white;
+    }
+
+    .messages-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+    .message-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 600px;
+      text-align: left;
+      border: 1px solid $lightBorder1;
+      color: white;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      &.dark-mode {
+        background: rgba($darkBackground, 0.95);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        color: white;
+      }
+
+      h3,
+      h4,
+      p {
+        margin: 0.5rem 0;
+        color: white;
+      }
+    }
+  }
+}
